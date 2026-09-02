@@ -19,7 +19,9 @@ produtos_nf = [
     "BC Moisture Kick — Máscara 500ml", "BC Moisture Kick — Spray Condicionador 400ml",
     "BC Moisture Kick — Hyalu Serum 50ml",
 ]
-produtos_antigos = ["Linha Davines (especificar na observação)", "Linha Keune (especificar na observação)",
+produtos_antigos = ["Coloração Keune (escrever a cor na observação)", "Ox Keune 10 vol", "Ox Keune 20 vol",
+                    "Ox Keune 30 vol", "Ox Keune 40 vol",
+                    "Linha Davines (especificar na observação)", "Linha Keune (especificar na observação)",
                     "Linha La Brizza (especificar na observação)", "Linha Erik Kenned (especificar na observação)",
                     "Outro produto (escrever na observação)"]
 
