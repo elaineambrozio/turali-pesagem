@@ -19,10 +19,12 @@ produtos_nf = [
     "BC Moisture Kick — Máscara 500ml", "BC Moisture Kick — Spray Condicionador 400ml",
     "BC Moisture Kick — Hyalu Serum 50ml",
 ]
-produtos_antigos = ["Coloração Keune (escrever a cor na observação)", "Ox Keune 10 vol", "Ox Keune 20 vol",
-                    "Ox Keune 30 vol", "Ox Keune 40 vol",
+produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
+                    "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
+                    "Ox 20v Erik Kened", "Ox 20V Igora",
+                    "Ox Keune 10 vol", "Ox Keune 20 vol", "Ox Keune 30 vol", "Ox Keune 40 vol",
                     "Linha Davines (especificar na observação)", "Linha Keune (especificar na observação)",
-                    "Linha La Brizza (especificar na observação)", "Linha Erik Kenned (especificar na observação)",
+                    "Linha La Brizza (especificar na observação)", "Linha Erik Kened (especificar na observação)",
                     "Outro produto (escrever na observação)"]
 
 opts_prof = "".join('<option value="{0}">{0}</option>'.format(p) for p in profissionais)
