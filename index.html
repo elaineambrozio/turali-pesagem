@@ -27,6 +27,9 @@
   .ok h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: 44px; }
   .ok p { font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: 20px; margin-top: 10px; color: #e3dfc9; }
   .ok .botao { background: #f2efe2; color: #33402f; max-width: 300px; }
+  .linha2 { display: flex; gap: 10px; }
+  .linha2 > div { flex: 1; min-width: 0; }
+  input[type=date] { min-height: 54px; }
   .rodape { margin-top: 30px; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #a8ad93; text-align: center; }
 </style>
 </head>
@@ -49,8 +52,14 @@
     </select>
     <label>Quantidade usada (g ou ml)</label>
     <input id="qtd" type="number" inputmode="decimal" step="0.1" min="0.1" placeholder="ex.: 32,5" required>
+    <div class="linha2">
+      <div><label>N&ordm; da comanda</label>
+      <input id="comanda" type="number" inputmode="numeric" min="1" placeholder="ex.: 8" required></div>
+      <div><label>Data do servi&ccedil;o</label>
+      <input id="data" type="date" required></div>
+    </div>
     <label>Observa&ccedil;&atilde;o (opcional)</label>
-    <textarea id="obs" rows="2" placeholder="cliente, servi&ccedil;o ou produto 'outro'"></textarea>
+    <textarea id="obs" rows="2" placeholder="nome da cliente (confer&ecirc;ncia) ou produto 'outro'"></textarea>
     <button class="botao" type="submit">Registrar &#127807;</button>
   </form>
   <div class="rodape">Turali &middot; uso interno</div>
@@ -67,12 +76,20 @@
 <script>
   var f = document.getElementById('f');
   try { var ult = localStorage.getItem('prof'); if (ult) document.getElementById('prof').value = ult; } catch (e) {}
+  (function(){ var h = new Date(), p = function(n){ return (n < 10 ? '0' : '') + n; };
+     document.getElementById('data').value = h.getFullYear() + '-' + p(h.getMonth() + 1) + '-' + p(h.getDate()); })();
   f.addEventListener('submit', function (ev) {
     ev.preventDefault();
     var prof = document.getElementById('prof').value;
     var prod = document.getElementById('prod').value;
     var qtd = document.getElementById('qtd').value.replace('.', ',');
-    var obs = document.getElementById('obs').value;
+    // Comanda + data do servico sempre juntas (decisao da equipe 05/09/2026): a numeracao
+    // do AVEC reinicia todo dia. Vai dentro da observacao num formato fixo que a rotina le.
+    var nc = document.getElementById('comanda').value;
+    var d = document.getElementById('data').value.split('-');   // aaaa-mm-dd
+    var dataBr = d.length === 3 ? d[2] + '/' + d[1] + '/' + d[0] : '';
+    var livre = document.getElementById('obs').value.trim();
+    var obs = 'Comanda ' + nc + ' · ' + dataBr + (livre ? ' · ' + livre : '');
     var e = document.getElementById('envio');
     e.elements['entry.877485345'].value = prof;
     e.elements['entry.1356314490'].value = prod;
