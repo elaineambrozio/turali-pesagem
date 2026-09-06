@@ -19,6 +19,13 @@ produtos_nf = [
     "BC Moisture Kick — Máscara 500ml", "BC Moisture Kick — Spray Condicionador 400ml",
     "BC Moisture Kick — Hyalu Serum 50ml",
 ]
+# Produtos de uso diário que apareciam como "Outro produto" nas observações (05/09/2026).
+# Nomes iguais aos do cadastro do AVEC, para o Claudinho lançar 1:1 na comanda.
+# REGRA: toda vez que um produto novo aparecer em "Outro produto", incluir aqui e republicar
+# (python gerar_app.py && git commit && git push) — a lista do app é o cadastro oficial da pesagem.
+produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 3L",
+                "Máscara Infusion Oil 1000ml", "Ativador de Crespos e Crespíssimos Arvensis 1L",
+                "Geleia Mirra 500ml", "Ox 10V Igora"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
@@ -30,6 +37,7 @@ produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Color
 opts_prof = "".join('<option value="{0}">{0}</option>'.format(p) for p in profissionais)
 opts_nf = "".join('<option value="{0}">{0}</option>'.format(p) for p in produtos_nf)
 opts_old = "".join('<option value="{0}">{0}</option>'.format(p) for p in produtos_antigos)
+opts_uso = "".join('<option value="{0}">{0}</option>'.format(p) for p in produtos_uso)
 
 seta = ("data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2214%22 height=%228%22>"
         "<path d=%22M1 1l6 6 6-6%22 stroke=%22%235c6650%22 stroke-width=%222%22 fill=%22none%22/></svg>")
@@ -79,6 +87,7 @@ html = """<!doctype html>
     <label>Produto</label>
     <select id="prod" required>
       <option value="" disabled selected>Qual produto?</option>
+      <optgroup label="Uso di&aacute;rio (lavat&oacute;rio / bancada)">__USO__</optgroup>
       <optgroup label="Linha nova (Schwarzkopf)">__NF__</optgroup>
       <optgroup label="Outros insumos">__OLD__</optgroup>
     </select>
@@ -127,7 +136,7 @@ html = """<!doctype html>
 </html>"""
 
 html = html.replace("__LOGO__", logo).replace("__PROF__", opts_prof).replace("__NF__", opts_nf)
-html = html.replace("__OLD__", opts_old).replace("__SETA__", seta)
+html = html.replace("__OLD__", opts_old).replace("__USO__", opts_uso).replace("__SETA__", seta)
 open("index.html", "w", encoding="utf-8").write(html)
 
 manifest = {
