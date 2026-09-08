@@ -25,7 +25,9 @@ produtos_nf = [
 # (python gerar_app.py && git commit && git push) — a lista do app é o cadastro oficial da pesagem.
 produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 3L",
                 "Máscara Infusion Oil 1000ml", "Ativador de Crespos e Crespíssimos Arvensis 1L",
-                "Geleia Mirra 500ml", "Ox 10V Igora"]
+                "Geleia Mirra 500ml", "Ox 10V Igora",
+                "PÓ DESCOLORANTE BE BLONDE WHITE ERIK KENED", "OX 30V ERIK KENED 1000ML",
+                "RECONSTRUCTION RESURRECTION 3 LABRIZZA", "RECONSTRUCTION SHAMPOO RESURRECTION 2 LABRIZZA"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
