@@ -27,7 +27,8 @@ produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 
                 "Máscara Infusion Oil 1000ml", "Ativador de Crespos e Crespíssimos Arvensis 1L",
                 "Geleia Mirra 500ml", "Ox 10V Igora",
                 "PÓ DESCOLORANTE BE BLONDE WHITE ERIK KENED", "OX 30V ERIK KENED 1000ML",
-                "RECONSTRUCTION RESURRECTION 3 LABRIZZA", "RECONSTRUCTION SHAMPOO RESURRECTION 2 LABRIZZA"]
+                "RECONSTRUCTION RESURRECTION 3 LABRIZZA", "RECONSTRUCTION SHAMPOO RESURRECTION 2 LABRIZZA",
+                "18M REPAIR OLÉO ERIK KENED 60ML"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
