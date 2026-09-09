@@ -31,7 +31,8 @@ produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 
                 "18M REPAIR OLÉO ERIK KENED 60ML",
                 "SHAMPOO ICE COOL CLEANING CONTROL LABRIZZA", "MASCARA RECOVERY INTENSIVE REPAIR LABRIZZA 500G",
                 "SHAMPOO RECOVERY INTENSIVE REPAIR LABRIZZA", "MASCARA COLOR SUMMER LABRIZZA",
-                "Metal Metalic Cleaning Balm", "Metal Metalic Cleaning Shampoo", "Metal Metalic Cleaning Mask"]
+                "Metal Metalic Cleaning Balm", "Metal Metalic Cleaning Shampoo", "Metal Metalic Cleaning Mask",
+                "ATIVADOR DE CACHOS E ONDULADAS 1L", "Frizz Zero"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
