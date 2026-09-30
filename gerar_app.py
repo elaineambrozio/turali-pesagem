@@ -33,7 +33,8 @@ produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 
                 "SHAMPOO RECOVERY INTENSIVE REPAIR LABRIZZA", "MASCARA COLOR SUMMER LABRIZZA",
                 "Metal Metalic Cleaning Balm", "Metal Metalic Cleaning Shampoo", "Metal Metalic Cleaning Mask",
                 "ATIVADOR DE CACHOS E ONDULADAS 1L", "Frizz Zero", "KPRO ACIDIFICANTE",
-                "MASCARA RADIANT GLOSS KEUNE 250ML", "SHAMPOO VITAL NUTRITION 1L"]
+                "MASCARA RADIANT GLOSS KEUNE 250ML", "SHAMPOO VITAL NUTRITION 1L",
+                "LEAVE IN CACHOS TYPE 4 MIRRA 500ML", "Fast Liss Alinhamento 1L"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
