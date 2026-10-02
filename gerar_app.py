@@ -35,7 +35,7 @@ produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 
                 "ATIVADOR DE CACHOS E ONDULADAS 1L", "Frizz Zero", "KPRO ACIDIFICANTE",
                 "MASCARA RADIANT GLOSS KEUNE 250ML", "SHAMPOO VITAL NUTRITION 1L",
                 "LEAVE IN CACHOS TYPE 4 MIRRA 500ML", "Fast Liss Alinhamento 1L",
-                "Shampoo TEA TREE SPECIAL", "Tea Tree Hair And Scalp Treatment 500 Ml"]
+                "Shampoo TEA TREE SPECIAL", "Tea Tree Hair And Scalp Treatment 500 Ml", "LAVANDER MINT CONDICIONADOR (LEAVE-IN SPRAY)"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
