@@ -40,7 +40,9 @@ produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 
                 "MASCARA PH NUTRITION BALANCED LABRIZZA", "SHAMPOO PH NUTRITION BALANCED LABRIZZA",
                 "SHAMPOO COLOR SUMMER LABRIZZA", "CONDICIONADOR CONFIDENT KEUNE",
                 "LEAVE IN CACHOS TYPE 2 500ML", "mascara 2 em 1 arvensis 900G - consumo",
-                "SHAMPO CONFIDENT 1L", "ACIDIFICANTE MIRRA 900ML", "shampoo derma exfoliante"]
+                "SHAMPO CONFIDENT 1L", "ACIDIFICANTE MIRRA 900ML", "shampoo derma exfoliante",
+                "OX 40V IGORA", "IGORA VIBRANCE LOCAO ATIVADORA 1,9% 1000ML",
+                "PO DESCOLORANTE IGORA VARIO BLOND SUPER PLUS 450G"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
