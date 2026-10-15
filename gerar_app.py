@@ -42,7 +42,16 @@ produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 
                 "LEAVE IN CACHOS TYPE 2 500ML", "mascara 2 em 1 arvensis 900G - consumo",
                 "SHAMPO CONFIDENT 1L", "ACIDIFICANTE MIRRA 900ML", "shampoo derma exfoliante",
                 "OX 40V IGORA", "IGORA VIBRANCE LOCAO ATIVADORA 1,9% 1000ML",
-                "PO DESCOLORANTE IGORA VARIO BLOND SUPER PLUS 450G"]
+                "PO DESCOLORANTE IGORA VARIO BLOND SUPER PLUS 450G",
+                "ABC AMPLIFY SHAMPOO 1000ML", "ABC BEAUTY POTION 50ML",
+                "ABC GLOW CONDICIONADOR 1000ML", "ABC GLOW MASCARA 500ML",
+                "ABC GLOW SHAMPOO 1000ML", "ABC GLOW SPRAY SERUM 200ML",
+                "ABC HYDRATE CONDICIONADOR 1000ML", "ABC HYDRATE INTENSE TREATMENT 200ML",
+                "ABC HYDRATE SHAMPOO 1000ML", "ABC HYDRATE SMOOTHING SERUM 100ML",
+                "ABC PURIFICANTE SHAMPOO 1000ML", "ABC REPLENISH CLEANSER 1000ML",
+                "ABC REPLENISH CONDICIONADOR 1000ML", "ABC REPLENISH CONDICIONADOR 250ML",
+                "ABC REPLENISH MASCARA 200ML", "ABC REPLENISH RICH CREAM MASK 500ML",
+                "ABC REPLENISH SPRAY CONDITIONER 250ML", "ABC SENSORIAL CREAM SCRUB 250ML"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
