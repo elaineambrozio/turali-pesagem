@@ -24,7 +24,7 @@ produtos_nf = [
 # REGRA: toda vez que um produto novo aparecer em "Outro produto", incluir aqui e republicar
 # (python gerar_app.py && git commit && git push) — a lista do app é o cadastro oficial da pesagem.
 produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 3L",
-                "Máscara Infusion Oil 1000ml", "Ativador de Crespos e Crespíssimos Arvensis 1L",
+                "Ativador de Crespos e Crespíssimos Arvensis 1L",
                 "Geleia Mirra 500ml", "Ox 10V Igora",
                 "PÓ DESCOLORANTE BE BLONDE WHITE ERIK KENED", "OX 30V ERIK KENED 1000ML",
                 "RECONSTRUCTION RESURRECTION 3 LABRIZZA", "RECONSTRUCTION SHAMPOO RESURRECTION 2 LABRIZZA",
