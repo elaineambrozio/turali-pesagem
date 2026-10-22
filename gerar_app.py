@@ -51,7 +51,12 @@ produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 
                 "ABC PURIFICANTE SHAMPOO 1000ML", "ABC REPLENISH CLEANSER 1000ML",
                 "ABC REPLENISH CONDICIONADOR 1000ML", "ABC REPLENISH CONDICIONADOR 250ML",
                 "ABC REPLENISH MASCARA 200ML", "ABC REPLENISH RICH CREAM MASK 500ML",
-                "ABC REPLENISH SPRAY CONDITIONER 250ML", "ABC SENSORIAL CREAM SCRUB 250ML"]
+                "ABC REPLENISH SPRAY CONDITIONER 250ML", "ABC SENSORIAL CREAM SCRUB 250ML",
+                "DAVINES OI SHAMPOO 1000ML", "DAVINES OI CONDICIONADOR 1000ML",
+                "DAVINES OI HAIR BUTTER MASCARA 1000ML", "DAVINES OI OLEO 135ML",
+                "DAVINES OI ALL IN ONE MILK LEAVE-IN 135ML", "DAVINES OI LIQUID LUSTER 300ML",
+                "DAVINES OI SOUFFLE 125ML", "DAVINES HEART OF GLASS SHEER GLAZE LEAVE-IN 150ML",
+                "DAVINES HEART OF GLASS BONDING GLOW 300ML", "DAVINES HEART OF GLASS SILKENING SHAMPOO 1000ML"]
 produtos_antigos = ["Coloração Igora (escrever a cor na observação)", "Coloração Keune (escrever a cor na observação)",
                     "Pó descolorante Erik Kened Blue", "Pó descolorante Keune Cream Blonde",
                     "Ox 20v Erik Kened", "Ox 20V Igora",
