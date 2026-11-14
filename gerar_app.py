@@ -5,7 +5,7 @@ logo = open("logo_b64.txt").read()
 
 profissionais = ["Marcela", "Lene (Aurilene L.)", "Aurilene Gomes", "Emylli", "Jéssica", "Iris",
                  "JOJO (João Marcos)", "Lousanne", "Luciana (Lu)", "Ludmilla", "Lindinalva",
-                 "Laine (Elaine C.)", "Maria Auxiliadora", "Yaponira"]
+                 "Laine (Elaine C.)", "Maria Auxiliadora", "Yaponira", "Fabiano Góis"]
 
 produtos_nf = [
     "FC Fibre Clinix — Fortify Booster 100ml", "FC Fibre Clinix — Hydrate Booster 100ml",
