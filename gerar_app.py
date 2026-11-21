@@ -31,7 +31,7 @@ produtos_uso = ["Lipídica", "Shampoo Day by Day 3L", "Day by Day Condicionador 
                 "18M REPAIR OLÉO ERIK KENED 60ML",
                 "SHAMPOO ICE COOL CLEANING CONTROL LABRIZZA", "MASCARA RECOVERY INTENSIVE REPAIR LABRIZZA 500G",
                 "SHAMPOO RECOVERY INTENSIVE REPAIR LABRIZZA", "MASCARA COLOR SUMMER LABRIZZA",
-                "Metal Metalic Cleaning Balm", "Metal Metalic Cleaning Shampoo", "Metal Metalic Cleaning Mask",
+                "Metal Metalic Cleaning Balm", "Metal Metalic Cleaning Shampoo", "Metal Metalic Cleaning Mask", "METAL CLEANING LEAVE",
                 "ATIVADOR DE CACHOS E ONDULADAS 1L", "Frizz Zero", "KPRO ACIDIFICANTE",
                 "MASCARA RADIANT GLOSS KEUNE 250ML", "SHAMPOO VITAL NUTRITION 1L",
                 "LEAVE IN CACHOS TYPE 4 MIRRA 500ML", "Fast Liss Alinhamento 1L",
